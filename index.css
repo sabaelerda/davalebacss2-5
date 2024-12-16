@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navigationBar {
+    max-width: 1920px;
+    width: 100%;
+    height: 72px;
+    position: relative;
+}
+
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 32px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 173px;
+    width: 100%;
+    height: 48px;
+}
+
+#options {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1577px;
+    width: 100%;
+    height: 22px;
+}
+
+#pricing {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inter;
+    font-size: 18px; 
+    color: #323232;
+}
+
+#faq {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inter;
+    font-size: 18px; 
+    color: #323232;
+    margin-left: 20px;
+}
+
+#review {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inter;
+    font-size: 18px;
+    color: #323232;
+    margin-left: 20px;
+}
+
+#buttonFirst {
+    max-width: 105px;
+    width: 100%;
+    height: 33px;
+    position: absolute;
+    margin-top: 19px;
+    border-radius: 8px;
+    background-color: #6941C6;
+    border: 1px solid #6941C6;
+    color: #ffffff;
+    padding: 8px 16px 8px 16px;
+}
+
+#section {
+    margin-top: 94px;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    height: 3083px;
+    padding: 96px;
+    background-color: #F1E8FF;
+    margin-top: 94px;
+}
+
+#container {
+    max-width: 1248px;
+    width: 100%;
+    height: 753px;
+    padding-left: 29px;
+    padding-right: 29px;
+}
+
+#heading {
+    margin: 0 auto;
+    max-width: 768px;
+    width: 100%;
+    height: 132px;
+}
+
+#title {
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    color: #181D27;
+}
+
+#titleText {
+    font-family: Inter;
+    font-size: 24px;
+    text-align: center;
+    color: #535862;
+    margin-top: 20px;
+}
+
+#content {
+    max-width: 1187px;
+    width: 100%;
+}
+
+#firstPricing {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 373px;
+    width: 100%;
+    height: 589px;
+    padding: 40px 32px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+#firstHeader {
+    text-align: center;
+    max-width: 373px;
+    width: 100%;
+}
+
+#button {
+    max-width: 93px;
+    width: 100%;
+    height: 28px;
+    border-radius: 9999px;
+    border: 1px solid #E9D7FE ;
+    padding: 4px 12px;
+    color: #6941C6;
+}
+
+#dollar {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    color: #181D27;
+}
+
+#headerText {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #535862;
+    margin-top: 8px;
+}
+
+#secondButton {
+    max-width: 309px;
+    width: 100%;
+    height: 48px;
+    border: 2px solid #7F56D9;
+    border-radius: 8px;
+    background-color: #7F56D9;
+    padding: 12px 18px;
+    color: #FFFFFF;
+    font-family: Inter;
+    margin-top: 28px;
+}
+
+#thirdButton {
+    max-width: 309px;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #D5D7DA;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-weight: 600;
+    font-family: Inter;
+    color: #414651;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+#checkFirst {
+    max-height: 24px;
+    height: 100%;
+    max-width: 373px;
+    width: 100%;
+    margin-top: 32px;
+}
+
+#firstImage {
+    vertical-align: middle;
+}
+
+#checked {
+    vertical-align: middle;
+    margin-top: 16px;
+}
+
+#access {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#basic {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #535862;
+}
+
+#individual {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 12px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #535862;
+}
+
+#individualSecond {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 12px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #535862;
+}
+
+#that {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 12px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #535862;
+}
+
+#feature {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 12px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #535862;
+}
+
+#secondPricing {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 373px;
+    width: 100%;
+    height: 589px;
+    padding: 40px 32px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+#thirdPricing {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 373px;
+    width: 100%;
+    height: 589px;
+    padding: 40px 32px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+#buttonSecond {
+    max-width: 117px;
+    width: 100%;
+    height: 28px;
+    border-radius: 9999px;
+    border: 1px solid #E9D7FE ;
+    padding: 4px 12px;
+    color: #6941C6;
+}
+
+#buttonThird {
+    max-width: 125px;
+    width: 100%;
+    height: 28px;
+    border-radius: 9999px;
+    border: 1px solid #E9D7FE ;
+    padding: 4px 12px;
+    color: #6941C6;
+}
+
+#containerSecond {
+    margin-top: 64px;
+    max-width: 1248px;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-radius: 24px;
+}
+
+#secondContainerTitle {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #181D27;
+} 
+
+
+#secondContainerText {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;   
+    text-align: center;
+    color: #535862;
+    margin-top: 20px;
+}
+
+#smallContainer {
+    margin: 0 auto;
+    max-width: 768px;
+    width: 100%;
+}
+
+#firstFaq {
+    padding: 32px;
+    width: 100%;
+    background-color: #E4E4E4;
+    margin-top: 32px;
+    border-radius: 16px;
+}
+
+#firstArrow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
+
+#freeTrial {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+    color:#181D27;
+}
+
+#feeTrialText {
+    margin-left: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #535862;
+}
+
+#secondFaq {
+    padding: 32px;
+    width: 100%;
+    background-color: #FFE5E5;
+    margin-top: 16px;
+    border: 1px solid #FF2323;
+    border-radius: 16px;
+}
+
+#planLater {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inter;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 400;
+    color:#181D27;
+}
+
+#planLaterText {
+    margin-left: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: #535862;
+}
+
+#thirdFaq {
+    padding: 32px;
+    width: 100%;
+    background-color: #E9D7FF;
+    margin-top: 16px;
+    border-radius: 16px;
+}
+
+#policy {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color:#181D27;
+    margin-left: 20px;
+}
+
+#policyText {
+    margin-left: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 400;
+    color: #535862;
+}
+
+#fourthFaq {
+    padding: 32px;
+    width: 100%;
+    background-color: #F7F4FF;
+    margin-top: 16px;
+    border-radius: 16px;
+}
+
+#invoice {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inter;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 400;
+    color:#181D27;
+}
+
+#invoiceText {
+    margin-left: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 400;
+    color: #535862;
+}
+
+#fivethFaq {
+    padding: 32px;
+    width: 100%;
+    background-color: #DCE6FF;
+    margin-top: 16px;
+    border: 1px solid #326DFF;
+    border-radius: 16px;
+}
+
+#billing {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+    color:#181D27;
+}
+
+#billingText {
+    margin-left: 48px;
+    font-family: Inter;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 400;
+    color: #535862;
+}
+
+#sixthFaq {
+    padding: 32px;
+    width: 100%;
+    background-color: #FFD5E7;
+    margin-top: 16px;
+    border-radius: 16px;
+}
+
+#accEmail {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Inter;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 400;
+    color:#181D27;
+}
+
+#accEmailText {
+    margin-left: 48px;
+    font-family: Inter;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #535862;
+}
+
+#reviews {
+    max-width: 1248px;
+    width: 100%;
+    padding: 32px;
+    border-radius: 24px;
+    margin-top: 64px;
+    background-color: #FFFFFF;
+}
+
+#reviewTitle {
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    color: #181D27;
+}
+
+#reviewText {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color:#535862;
+    margin-top: 20px;
+}
+
+#firstFaqCard {
+    position: relative;
+    margin-top: 64px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 580px;
+    padding: 32px;
+    border: 1px solid #E9EAEB;
+    border-radius: 12px;
+    height: 313px;
+}
+
+#firstFaqText {
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    color: #181D27;
+}
+
+#faqImage {
+    max-width: 516px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 80px;
+    vertical-align: top;
+    position: relative; 
+}
+
+#faqImageFirst {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    vertical-align: top;
+}
+
+#firstImageName {
+    display: inline-block;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+#verified {
+    display: inline-block;
+}
+
+#verified img {
+    width: 16px;
+    height: 16px;
+}
+
+#firstImagetext {
+    color:  #535862;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#companyLogo {
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+#companyLogo img {
+    position: absolute;
+    right: 0;
+}
+
+#faqImageSecond {
+    max-width: 516px;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
+    bottom: 0;
+    vertical-align: top;
+    position: absolute; 
+}
+
+#faqImageThird {
+    max-width: 516px;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 15px;
+    bottom: 0;
+    vertical-align: top;
+    position: absolute; 
+}
+
+#faqImageFourth {
+    max-width: 516px;
+    width: 100%;
+    position: absolute;
+    margin-top: 70px;
+}
+
+#fourthImage {
+  margin-bottom: -7px;
+}
